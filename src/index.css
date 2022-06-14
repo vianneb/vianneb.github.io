@@ -3,7 +3,14 @@
   color: #444452;
 }
 
-p {
+h2.heading {
+  color: #007FFF;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+/* Header */
+.header p {
   font-weight: medium;
   font-size: 2em;
 }
@@ -20,3 +27,15 @@ p {
 .typed-strings {
   color: #007FFF;
 }
+
+/* About */
+.about-link {
+  color:#444452;
+  text-decoration-color: #68B4FF;
+  text-decoration-thickness: 2px;
+}
+
+.about-link:hover {
+  color: black;
+}
+
