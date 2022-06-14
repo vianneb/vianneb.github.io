@@ -9,6 +9,10 @@ h2.heading {
   font-weight: bold;
 }
 
+img {
+  border-radius: 2px;
+}
+
 /* Header */
 .header p {
   font-weight: medium;
@@ -37,5 +41,54 @@ h2.heading {
 
 .about-link:hover {
   color: black;
+}
+
+
+/* Projects */
+.image {
+  position: relative;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.3s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  color: white;
+  font-weight: bold;
+}
+
+.image__description {
+  color: white;
+  text-align: center;
 }
 
