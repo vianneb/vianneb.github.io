@@ -92,3 +92,11 @@ img {
   text-align: center;
 }
 
+.image__tools {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border: 1.5px solid white;
+  border-radius: 15px;
+}
+
