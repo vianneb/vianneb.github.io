@@ -1,0 +1,22 @@
+* {
+  font-family: 'Karla', sans-serif;
+  color: #444452;
+}
+
+p {
+  font-weight: medium;
+  font-size: 2em;
+}
+
+.wave-emoji {
+  width: 36px;
+  height: 36px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.typed-strings {
+  color: #007FFF;
+}

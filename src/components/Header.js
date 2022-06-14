@@ -1,0 +1,41 @@
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
+
+export function Header(props) {
+
+    // Create Ref element.
+    const el = useRef(null);
+
+    useEffect(() => {
+        const typed = new Typed(el.current, {
+            strings: ["student.", "leader.", "designer.", "developer.", "product manager."], // Strings to display
+            // Speed settings, try diffrent values untill you get good results
+            startDelay: 300,
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 100,
+            loop: true
+        });
+
+        // Destroying
+        return () => {
+            typed.destroy();
+        };
+    }, []);
+
+
+    return (
+        <div>
+            <div className='container d-flex'>
+                <p className='me-3'>Hello!</p>
+                <img className='wave-emoji' src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/apple/325/waving-hand_medium-light-skin-tone_1f44b-1f3fc_1f3fc.png" alt="wave emoji"></img>
+            </div>
+            <div className='container d-flex'>
+                <p>My name is <span className='name'>Vianne.</span></p>
+            </div>
+            <div className='container d-flex'>
+                <p>I am a <span className="typed-strings"ref={el}></span></p>
+            </div>
+        </div>
+    )
+}
