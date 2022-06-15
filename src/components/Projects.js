@@ -5,7 +5,7 @@ export function Projects() {
         <section className='container mb-5'>
             <h2 className='heading'>SELECTED PROJECTS</h2>
             <div className='container'>
-                <div className=' d-flex row'>
+                <div className='row'>
                     <div className='col-12 col-md-6 mb-3'>
                         <a href="https://www.figma.com/proto/4FRk0oqY9XWUZaqNSHAc5l/DubMatch?node-id=186%3A10207&scaling=scale-down&page-id=2%3A2">
                             <div className='card image'>
