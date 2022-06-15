@@ -3,18 +3,23 @@
   color: #444452;
 }
 
+p {
+  font-size: 1.05em;
+}
+
 h2.heading {
   color: #007FFF;
-  font-size: 1.75em;
+  font-size: 1.6em;
   font-weight: bold;
 }
 
 h3.heading {
   font-weight: bold;
+  font-size: 1.45em;
 }
 
 h4.heading {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 img {
@@ -109,12 +114,29 @@ img {
 }
 
 /* Experience */
-.timeframe {
-  font-weight: bold;
-}
-
 .company-name {
   text-decoration: none;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* Skills */
+.lang-list {
+  list-style: none;
+}
+
+/* Footer */
+.heart-emoji {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 5px;
+}
+
+.woman-emoji {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 5px;
+}
 
