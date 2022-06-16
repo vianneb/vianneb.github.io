@@ -8,7 +8,7 @@ export function Skills() {
             <h2 className="heading">SKILLS</h2>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-4">
                         <h3 className="heading">Languages</h3>
                         <ul className="lang-list ms-0 ps-0">
                             <li>Python</li>
@@ -21,7 +21,7 @@ export function Skills() {
                         </ul>
                     </div>
 
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-4">
                         <h3 className="heading">Tools &amp; Libraries</h3>
                         <ul className="lang-list ms-0 ps-0">
                             <li>Figma</li>
@@ -31,6 +31,19 @@ export function Skills() {
                             <li>Bootstrap</li>
                             <li>Firebase</li>
                             <li>AJAX</li>
+                        </ul>
+
+                    </div>
+
+                    <div className="col-12 col-md-4">
+                        <h3 className="heading">Other Skills</h3>
+                        <ul className="lang-list ms-0 ps-0">
+                            <li>UX/UI Design</li>
+                            <li>User Research (surveys &amp; interviews)</li>
+                            <li>Usability Testing</li>
+                            <li>Web Development</li>
+                            <li>Data Analysis &amp; Visualization</li>
+                            <li>Information Architecture</li>          
                         </ul>
 
                     </div>
