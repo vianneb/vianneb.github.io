@@ -3,7 +3,9 @@
   color: #444452;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 }
+
 
 p {
   font-size: 1.05em;
@@ -33,6 +35,14 @@ img {
   border-radius: 2px;
 }
 
+.margin-top {
+  margin-top: 115px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 
+}
 
 /* Navbar */
 .NavbarItems {
@@ -160,6 +170,7 @@ img {
 }
 
 /* Header */
+
 .header p {
   font-weight: medium;
   font-size: 2em;
@@ -225,6 +236,7 @@ img {
 .image__overlay > * {
   transform: translateY(20px);
   transition: transform 0.3s;
+  background-color: transparent;
 }
 
 .image__overlay:hover {
@@ -251,6 +263,7 @@ img {
   padding: 3px;
   border: 1.5px solid white;
   border-radius: 15px;
+  background-color: transparent;
 }
 
 /* Experience */

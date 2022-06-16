@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export function About() {
+
+    
+
+
     return (
-        <section className="container mb-5">
+        <section className="container margin-top">
             <h2 className="heading">ABOUT</h2>
             <div className="container">
                 <div className="row">

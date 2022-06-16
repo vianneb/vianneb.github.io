@@ -26,8 +26,8 @@ export function Header() {
 
 
     return (
-        <div className='header mb-5'>
-            <div className='container d-flex'>
+        <div className='header margin-top'>
+            <div className='container d-flex mb-5'>
                 <p className='me-3'>Hello!</p>
                 <motion.img animate={{rotate: [0, -20, 20, -10, 10,]}} transition={{repeat: Infinity, repeatDelay: 2, duration: 0.65}} className='wave-emoji' src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/apple/325/waving-hand_medium-light-skin-tone_1f44b-1f3fc_1f3fc.png" alt="wave emoji"></motion.img>
             </div>

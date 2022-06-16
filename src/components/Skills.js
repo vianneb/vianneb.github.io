@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export function Skills() {
 
+    //for scroll animation
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+    }, []);
+
     return (
 
-        <section className="container mb-5">
+        <section data-aos='fade-up' data-aos-duration='4000' className="container margin-top mb-5">
             <h2 className="heading">SKILLS</h2>
             <div className="container">
                 <div className="row">

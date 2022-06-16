@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ArrowUpRight } from "react-feather";
 import { motion } from "framer-motion";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export function Experience() {
 
@@ -10,8 +12,14 @@ export function Experience() {
     const [isThirdHovered, setIsThirdHovered] = useState(false);
     const [isFourthHovered, setIsFourthHovered] = useState(false);
 
+    //for scroll animation
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+    }, []);
+
+
     return (
-        <section className='container mb-5'>
+        <section data-aos='fade-up' data-aos-duration='4000' className='container margin-top'>
             <h2 className="heading">EXPERIENCE</h2>
 
             <div className="container">
