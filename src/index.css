@@ -1,11 +1,30 @@
-* {
-  font-family: 'Karla', sans-serif;
-  color: #444452;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+:root {
+  --background: #f4f4f4;
+  --text-color: #444452;
+  --nav-hover: #004080;
+  --text-hover: black;
+  --box-shadow: rgba(15, 15, 15, 0.13);
 }
 
+[data-theme='dark'] {
+  --background: #171C28;
+  --text-color: white;
+  --nav-hover: #68B4FF;
+  --text-hover: #cbd1d7;
+  --box-shadow: #25304d;
+}
+
+* {
+  font-family: 'Karla', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+}
+
+li.nav-links {
+  background: var(--background);
+}
 
 p {
   font-size: 1.05em;
@@ -29,10 +48,15 @@ h3.heading {
 
 h4.heading {
   font-size: 1.1em;
+  font-weight: 400;
+}
+
+div.card {
+  background-color: transparent;
 }
 
 img {
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .margin-top {
@@ -45,12 +69,18 @@ img {
 }
 
 /* Navbar */
+
+.nav-toggle {
+  list-style: none;
+  padding-left: 22px;
+}
+
 .NavbarItems {
   width: 100%;
   display: flex;
   align-items: center;
   height: 60px;
-  box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
+  box-shadow: 0 1px 7px var(--box-shadow);
   padding: 0 1.5em;
 }
 
@@ -71,6 +101,7 @@ img {
   height: 100%;
   justify-content: end;
   flex: auto;
+  align-items: center;
 }
 
 .nav-links {
@@ -91,11 +122,11 @@ img {
 }
 
 .link:hover {
-  color: #004080;
+  color: var(--nav-hover);
 }
 
 .nav-icon:hover {
-  color: #004080;
+  color: var(--nav-hover);
 }
 
 
@@ -128,21 +159,21 @@ img {
     display: flex;
     flex-direction: column;
     width: 100px;
-    height: 175px;
+    height: 200px;
     position: absolute;
     top: 70px;
     opacity: 0;
   }
 
   .nav-menu.active {
-    background: #D1E8FF;
     padding-top: 12px;
-    border-radius: 5px;
+    padding-bottom: 14px;
     margin-right: 20px;
+    border-radius: 8px;
     right: 0;
     opacity: 1;
     z-index: 1;
-    box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
+    box-shadow: 0 0px 10px rgba(15, 15, 15, 0.13);
     transition: all 0.5s ease;
   }
 
@@ -150,6 +181,10 @@ img {
     text-align: center;
     display: table;
     padding-left: 0;
+  }
+
+  .nav-toggle {
+    padding-left: 0px;
   }
 
   .nav-icon {
@@ -191,13 +226,13 @@ img {
 
 /* About */
 .about-link {
-  color:#444452;
+  color: var(--text-color);
   text-decoration-color: #68B4FF;
   text-decoration-thickness: 2px;
 }
 
 .about-link:hover {
-  color: black;
+  color: var(--text-hover);
 }
 
 
@@ -277,6 +312,122 @@ img {
   list-style: none;
 }
 
+/* Toggle */
+.toggle {
+  height: 25px;
+  width: 50px;
+  border-radius: 25px;
+  background-image: linear-gradient(aqua, skyblue);
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle.night {
+  background-image: linear-gradient(midnightblue, rebeccapurple);
+}
+
+.notch > .crater {
+  background: burlywood;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 1.5px 1.5px rgba(0, 0, 0, 0.4) inset;
+  opacity: 0;
+}
+
+.night .crater {
+  opacity: 0.4;
+}
+
+.crater:first-child {
+  left: 1px;
+  top: 4.5px;
+  height: 3px;
+  width: 9px;
+  transform: rotate(-45deg);
+}
+
+.crater:last-child {
+  right: 2px;
+  top: 4.5px;
+  height: 3px;
+  width: 6px;
+  transform: rotate(45deg);
+}
+
+.night > .notch {
+  background-color: whitesmoke;
+  box-shadow: 0 0 2px whitesmoke;
+  transform: translate(25px, 0);
+}
+
+.notch {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  box-shadow: 0 0 2px yellow;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.shape {
+  position: absolute;
+  background: whitesmoke;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.shape.sm {
+  height: 2px;
+  width: 12px;
+  top: 50%;
+  left: 60%;
+}
+
+.shape.md {
+  height: 3px;
+  width: 18px;
+  top: 25%;
+  left: 25%;
+  z-index: 1;
+}
+
+.shape.lg {
+  height: 4px;
+  width: 24px;
+  bottom: 5px;
+  left: 25%;
+}
+.night .shape {
+  background: lightgray;
+  box-shadow: 0 0 3px 0.5px violet;
+}
+
+.night .shape.sm {
+  height: 2px;
+  width: 2px;
+  transform: translate(-10px, 0);
+}
+
+.night .shape.sm:first-of-type {
+  transform: translate(-20px, -3px);
+}
+
+.night .shape.md {
+  height: 3px;
+  width: 3px;
+  transform: translate(3px, 0);
+}
+
+.night .shape.lg {
+  height: 4px;
+  width: 4px;
+  transform: translate(-3px, 0);
+}
+
 /* Footer */
 .heart-emoji {
   width: 16px;
@@ -289,4 +440,6 @@ img {
   height: 16px;
   margin-bottom: 5px;
 }
+
+
 

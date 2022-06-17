@@ -26,16 +26,17 @@ export function Header() {
 
 
     return (
+
         <div className='header margin-top'>
             <div className='container d-flex mb-5'>
                 <p className='me-3'>Hello!</p>
-                <motion.img animate={{rotate: [0, -20, 20, -10, 10,]}} transition={{repeat: Infinity, repeatDelay: 2, duration: 0.65}} className='wave-emoji' src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/apple/325/waving-hand_medium-light-skin-tone_1f44b-1f3fc_1f3fc.png" alt="wave emoji"></motion.img>
+                <motion.img animate={{ rotate: [0, -20, 20, -10, 10,] }} transition={{ repeat: Infinity, repeatDelay: 2, duration: 0.65 }} className='wave-emoji' src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/apple/325/waving-hand_medium-light-skin-tone_1f44b-1f3fc_1f3fc.png" alt="wave emoji"></motion.img>
             </div>
             <div className='container d-flex'>
                 <p>My name is <span className='name'>Vianne.</span></p>
             </div>
             <div className='container d-flex'>
-                <p>I'm a <span className="typed-strings"ref={el}></span></p>
+                <p>I'm a <span className="typed-strings" ref={el}></span></p>
             </div>
         </div>
     )

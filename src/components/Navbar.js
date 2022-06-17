@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Toggle } from "./Toggle";
 
 export function Navbar(props) {
     //state to track whether hamburger is clicked
@@ -39,7 +40,11 @@ export function Navbar(props) {
                     </a>
                 </li>
 
+                <li className="nav-toggle">
+                    <Toggle toggled={props.toggled} onClick={props.onClick}/>
+                </li>
             </ul>
+            
         </nav>
 
     )
