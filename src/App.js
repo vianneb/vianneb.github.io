@@ -10,20 +10,19 @@ import useLocalStorage from "use-local-storage";
 
 function App() {
 
-  const [theme, setTheme] = useLocalStorage('light');
-  const [toggled, setToggled] = useLocalStorage(false);
+  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light');
+  const [toggled, setToggled] = useLocalStorage('toggled' ? true : false);
 
   const switchTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
-    setToggled(!toggled);
+    if (newTheme === 'dark') {
+      setToggled(true);
+    } else {
+      setToggled(false);
+    }
   }
   
-  
-
-  // const handleClick = () => {
-  //   setToggled(!toggled);
-  // }
 
   return (
     <div className="App" data-theme={theme}>
