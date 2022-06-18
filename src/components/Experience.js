@@ -20,7 +20,7 @@ export function Experience(props) {
     let hoverColor = 'black';
     let textColor = '#444452';
 
-    if (props.theme == 'dark') {
+    if (props.theme === 'dark') {
         hoverColor = '#cbd1d7';
         textColor = "white";
     }
