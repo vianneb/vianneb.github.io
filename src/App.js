@@ -7,12 +7,11 @@ import { Skills } from "./components/Skills";
 import { Footer } from "./components/Footer";
 
 import useLocalStorage from "use-local-storage";
-import { useState } from "react";
 
 function App() {
 
   const [theme, setTheme] = useLocalStorage('light');
-  const [toggled, setToggled] = useState(false);
+  const [toggled, setToggled] = useLocalStorage(false);
 
   const switchTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
