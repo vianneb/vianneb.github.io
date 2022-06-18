@@ -16,28 +16,27 @@ export function Skills() {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-4">
-                        <h3 className="heading">Languages</h3>
+                        <h3 className="heading">Programming</h3>
                         <ul className="lang-list ms-0 ps-0">
                             <li>Python</li>
                             <li>Java</li>
-                            <li>Javascript</li>
-                            <li>HTML</li>
-                            <li>Python</li>
                             <li>R</li>
                             <li>SQL</li>
+                            <li>Javascript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>React.js</li>
+                            <li>AJAX (API calls)</li>
                         </ul>
                     </div>
 
                     <div className="col-12 col-md-4">
-                        <h3 className="heading">Tools &amp; Libraries</h3>
+                        <h3 className="heading">Tools</h3>
                         <ul className="lang-list ms-0 ps-0">
                             <li>Figma</li>
                             <li>Git/GitHub</li>
                             <li>Visual Studio Code</li>
-                            <li>React</li>
-                            <li>Bootstrap</li>
                             <li>Firebase</li>
-                            <li>AJAX</li>
                         </ul>
 
                     </div>
@@ -45,12 +44,12 @@ export function Skills() {
                     <div className="col-12 col-md-4">
                         <h3 className="heading">Other Skills</h3>
                         <ul className="lang-list ms-0 ps-0">
-                            <li>UX/UI Design</li>
-                            <li>User Research (surveys &amp; interviews)</li>
+                            <li>User-Centered Design</li>
+                            <li>User Research (surveys, interviews, personas)</li>
                             <li>Usability Testing</li>
+                            <li>Information Architecture</li>
                             <li>Web Development</li>
-                            <li>Data Analysis &amp; Visualization</li>
-                            <li>Information Architecture</li>          
+                            <li>Data Analysis &amp; Visualization</li>          
                         </ul>
 
                     </div>

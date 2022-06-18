@@ -8,7 +8,7 @@
 
 [data-theme='dark'] {
   --background: #171C28;
-  --text-color: white;
+  --text-color:#f4f4f4;
   --nav-hover: #68B4FF;
   --text-hover: #cbd1d7;
   --box-shadow: #25304d;
@@ -225,6 +225,7 @@ img {
 }
 
 /* About */
+
 .about-link {
   color: var(--text-color);
   text-decoration-color: #68B4FF;

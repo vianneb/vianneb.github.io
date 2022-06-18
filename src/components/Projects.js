@@ -21,7 +21,7 @@ export function Projects() {
 
                                 <div className='image__overlay'>
                                     <h3 className='heading image__title'>DubMatch</h3>
-                                    <p className='image__description ms-2 me-2'>A mobile application that connects users to classmates of similar interests.</p>
+                                    <p className='image__description ms-2 me-2'>A mobile application that connects students to classmates of similar interests.</p>
                                     <div>
                                         <span className="image__tools">Figma</span>
                                     </div>

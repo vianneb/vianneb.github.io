@@ -11,7 +11,7 @@ import { useState } from "react";
 
 function App() {
 
-  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light');
+  const [theme, setTheme] = useLocalStorage('light');
   const [toggled, setToggled] = useState(false);
 
   const switchTheme = () => {
