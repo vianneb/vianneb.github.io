@@ -132,10 +132,12 @@ img {
 
 .fa-bars {
   color:#007FFF;
+  cursor: pointer;
 }
 
 .fa-times {
   color:#007FFF;
+  cursor: pointer;
 }
 
 .nav-icon {
