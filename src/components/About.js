@@ -26,7 +26,7 @@ export function About() {
 
                     <div className="col-12 col-md-4">
                         <div className="card">
-                            <img src="img/vianne.jpg" alt="Vianne holding Koda"></img>
+                            <img className="vianne"src="img/vianne.jpg" alt="Vianne holding Koda"></img>
                         </div>
                     </div>
                 </div>
