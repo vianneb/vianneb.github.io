@@ -15,7 +15,7 @@ export function Navbar(props) {
             <ul className={isClicked ? 'nav-menu active' : 'nav-menu'}>
 
                 <li className="nav-links resume">
-                    <a href="https://drive.google.com/file/d/1YC6_aZMk8-HZxm3as2aU1IW0Wn2yr27V/view?usp=sharing" className="link">
+                    <a href="https://drive.google.com/file/d/1D_aMpB4XakWZhS3CLimBB-wwGy_9ERxM/view?usp=sharing" className="link">
                         Resume
                     </a>
                 </li>

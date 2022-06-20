@@ -15,7 +15,7 @@ export function Projects() {
             <div className='container'>
                 <div className='row'>
                     <div className='col-12 col-md-6 mb-3'>
-                        <a href="https://www.figma.com/proto/4FRk0oqY9XWUZaqNSHAc5l/DubMatch?node-id=186%3A10207&scaling=scale-down&page-id=2%3A2">
+                        <a href="https://www.figma.com/file/4FRk0oqY9XWUZaqNSHAc5l/DubMatch?node-id=2%3A2">
                             <div className='card image'>
                                 <img className='image__img' src="img/dubmatch.png" alt="prototypes for DubMatch app"></img>
 
@@ -52,7 +52,7 @@ export function Projects() {
                         </a>
                     </div>
                     <div className='col-12 col-md-6 mb-3'>
-                        <a href="https://www.figma.com/proto/J67d99YJEYNjRQGEkgEcSF/LiveFresh?node-id=714%3A1639&scaling=scale-down&page-id=2%3A79&starting-point-node-id=714%3A1637">
+                        <a href="https://www.figma.com/file/J67d99YJEYNjRQGEkgEcSF/LiveFresh?node-id=2%3A79">
                         <div className='card image'>
                             <img className='image__img' src="img/livefresh.png" alt="prototypes for LiveFresh app"></img>
 
