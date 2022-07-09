@@ -19,14 +19,14 @@ export function Skills() {
                         <h3 className="heading">Programming</h3>
                         <ul className="lang-list ms-0 ps-0">
                             <li>Python</li>
-                            <li>Java</li>
                             <li>R</li>
                             <li>SQL</li>
-                            <li>Javascript</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>React.js</li>
-                            <li>AJAX (API calls)</li>
+                            <li>APIs</li>
                         </ul>
                     </div>
 
@@ -34,6 +34,7 @@ export function Skills() {
                         <h3 className="heading">Tools</h3>
                         <ul className="lang-list ms-0 ps-0">
                             <li>Figma</li>
+                            <li>Balsamiq</li>
                             <li>Git/GitHub</li>
                             <li>Visual Studio Code</li>
                             <li>Firebase</li>
@@ -44,9 +45,9 @@ export function Skills() {
                     <div className="col-12 col-md-4">
                         <h3 className="heading">Other Skills</h3>
                         <ul className="lang-list ms-0 ps-0">
-                            <li>User-Centered Design</li>
+                            <li>Design Thinking</li>
                             <li>User Research (surveys, interviews, personas)</li>
-                            <li>Usability Testing</li>
+                            <li>User Testing</li>
                             <li>Information Architecture</li>
                             <li>Web Development</li>
                             <li>Data Analysis &amp; Visualization</li>          
