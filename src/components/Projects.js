@@ -38,7 +38,7 @@ export function Projects() {
 
                                 <div className='image__overlay'>
                                     <h3 className='heading image__title'>Foody</h3>
-                                    <p className='image__description ms-2 me-2'>An interactive web application that allows users to search, view, share, and save local Seattle restuarants.</p>
+                                    <p className='image__description ms-2 me-2'>An interactive web application that allows users to search, view, save, and post Seattle-area restuarants.</p>
                                     <div>
                                         <span className="image__tools me-2">Javascript</span>
                                         <span className="image__tools me-2">HTML</span>
@@ -73,7 +73,7 @@ export function Projects() {
 
                             <div className='image__overlay'>
                                 <h3 className='heading image__title'>Analyzing US Minimum Wages</h3>
-                                <p className='image__description ms-2 me-2'>A web application with interactive data visualizations that explore trends in US federal and state minimum wages over time.</p>
+                                <p className='image__description ms-2 me-2'>A web application with interactive data visualizations that explore the relationship between US federal and state minimum wages and consumer price index over time.</p>
                                 <div>
                                     <span className="image__tools me-2">R</span>
                                     <span className="image__tools">Shiny</span>
@@ -82,6 +82,25 @@ export function Projects() {
                         </div>
                         </a>
                     </div>
+
+                    <div className='col-12 col-md-6 mb-3'>
+                        <a href="https://docs.google.com/document/d/1xWeXu0yX4oCFVDLqhfzrf3gx3X4bVUBBxsLc18yirGI/edit#heading=h.aczyuw2yex2w">
+                            <div className='card image'>
+                                <img className='image__img' src="img/gender_wage.png" alt="interactive plot depicting percentage of gender wage gap in OECD countries"></img>
+
+                                <div className='image__overlay'>
+                                    <h3 className='heading image__title'>Analyzing Gender Wage Gaps</h3>
+                                    <p className='image__description ms-2 me-2'>Data visualizations that examine how the gender wage gap varies across education levels, occupations, and countries.</p>
+                                    <div>
+                                        <span className="image__tools">Python</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </section>
