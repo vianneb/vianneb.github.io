@@ -11,26 +11,9 @@ export function Projects() {
 
     return (
         <section data-aos='fade-up' data-aos-duration='4000' className='container margin-top'>
-            <h2 className='heading'>SELECTED PROJECTS</h2>
+            <h2 className='heading'>RECENT PROJECTS</h2>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-12 col-md-6 mb-3'>
-                        <a href="https://www.figma.com/file/4FRk0oqY9XWUZaqNSHAc5l/DubMatch?node-id=2%3A2">
-                            <div className='card image'>
-                                <img className='image__img' src="img/dubmatch.png" alt="prototypes for DubMatch app"></img>
-
-                                <div className='image__overlay'>
-                                    <h3 className='heading image__title'>DubMatch</h3>
-                                    <p className='image__description ms-2 me-2'>A mobile application that connects students to classmates of similar interests.</p>
-                                    <div>
-                                        <span className="image__tools">Figma</span>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </a>
-                    </div>
                     <div className='col-12 col-md-6 mb-3'>
                         <a href="https://foody-6af26.web.app/home">
                             <div className='card image'>
@@ -52,20 +35,46 @@ export function Projects() {
                         </a>
                     </div>
                     <div className='col-12 col-md-6 mb-3'>
-                        <a href="https://www.figma.com/file/J67d99YJEYNjRQGEkgEcSF/LiveFresh?node-id=2%3A79">
+                        <a href="https://www.figma.com/file/4FRk0oqY9XWUZaqNSHAc5l/DubMatch?node-id=2%3A2">
+                            <div className='card image'>
+                                <img className='image__img' src="img/dubmatch.png" alt="prototypes for DubMatch app"></img>
+
+                                <div className='image__overlay'>
+                                    <h3 className='heading image__title'>DubMatch</h3>
+                                    <p className='image__description ms-2 me-2'>A mobile application that connects students to classmates of similar interests.</p>
+                                    <div>
+                                        <span className="image__tools">Figma</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </a>
+                    </div>
+                    
+
+                    <div className='col-12 col-md-6 mb-3'>
+                        <a href="https://github.com/vianneb/upconnect">
                         <div className='card image'>
-                            <img className='image__img' src="img/livefresh.png" alt="prototypes for LiveFresh app"></img>
+                            <img className='image__img' src="img/upconnect.png" alt="prototype for UpConnect"></img>
 
                             <div className='image__overlay'>
-                                <h3 className='heading image__title'>LiveFresh</h3>
-                                <p className='image__description ms-2 me-2'>A mobile application that allows users to track the expiration dates of items in their fridge and find recipes for expiring items.</p>
+                                <h3 className='heading image__title'>UpConnect</h3>
+                                <p className='image__description ms-2 me-2'>A web application that allows college students to search for and schedule meetings with industry professional mentors in their career field.</p>
                                 <div>
-                                    <span className="image__tools">Figma</span>
+                                        <span className="image__tools me-2">Javascript</span>
+                                        <span className="image__tools me-2">HTML</span>
+                                        <span className="image__tools me-2">CSS</span>
+                                        <span className="image__tools me-2">React</span>
+                                        <span className="image__tools">Firebase</span>
                                 </div>
                             </div>
                         </div>
                         </a>
                     </div>
+
+
+
                     <div className='col-12 col-md-6 mb-3'>
                         <a href="https://sarah02mun.shinyapps.io/final-project-starter-sarah02mun/">
                         <div className='card image'>
@@ -98,6 +107,22 @@ export function Projects() {
 
                             </div>
 
+                        </a>
+                    </div>
+
+                    <div className='col-12 col-md-6 mb-3'>
+                        <a href="https://www.figma.com/file/J67d99YJEYNjRQGEkgEcSF/LiveFresh?node-id=2%3A79">
+                        <div className='card image'>
+                            <img className='image__img' src="img/livefresh.png" alt="prototypes for LiveFresh app"></img>
+
+                            <div className='image__overlay'>
+                                <h3 className='heading image__title'>LiveFresh</h3>
+                                <p className='image__description ms-2 me-2'>A mobile application that allows users to track the expiration dates of items in their fridge and find recipes for expiring items.</p>
+                                <div>
+                                    <span className="image__tools">Figma</span>
+                                </div>
+                            </div>
+                        </div>
                         </a>
                     </div>
 
