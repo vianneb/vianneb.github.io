@@ -37,7 +37,7 @@ export function Experience(props) {
                             <span className="d-flex">
                                 06/22—
                                 <br />
-                                Present
+                                08/22
                             </span>
                         </div>
 
@@ -45,7 +45,7 @@ export function Experience(props) {
                             <div className="d-flex">
                                 <a className="company-name" href="https://www.microsoft.com/en-us/about">
                                     <span className='d-flex' onMouseEnter={() => setIsFirstHovered(true)} onMouseLeave={() => setIsFirstHovered(false)}>
-                                        <h3 className="heading" style={{ color: isFirstHovered ? hoverColor : textColor }}>Microsoft</h3>
+                                        <h3 className="heading" style={{ color: isFirstHovered ? hoverColor : textColor }}>Microsoft &amp; Cyborg Mobile</h3>
                                         <motion.span animate={{ x: isFirstHovered ? 5 : 0, y: isFirstHovered ? -5 : 0 }}>
                                             <ArrowUpRight color="#68B4FF" size={26} />
                                         </motion.span>
