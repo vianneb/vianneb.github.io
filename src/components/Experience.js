@@ -43,7 +43,7 @@ export function Experience(props) {
 
                         <div className="col-9 col-md-10">
                             <div className="d-flex">
-                                <a className="company-name" href="https://www.microsoft.com/en-us/about">
+                                <a className="company-name" href="https://newtechnologists.com/">
                                     <span className='d-flex' onMouseEnter={() => setIsFirstHovered(true)} onMouseLeave={() => setIsFirstHovered(false)}>
                                         <h3 className="heading" style={{ color: isFirstHovered ? hoverColor : textColor }}>Microsoft &amp; Cyborg Mobile</h3>
                                         <motion.span animate={{ x: isFirstHovered ? 5 : 0, y: isFirstHovered ? -5 : 0 }}>
