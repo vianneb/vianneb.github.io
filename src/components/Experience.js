@@ -75,7 +75,7 @@ export function Experience(props) {
                                     </span>
                                 </a>
                             </span>
-                            <h4 className="heading">Undergraduate Teaching Assistant for INFO 200 (Intellctual Foundations of Informatics)</h4>
+                            <h4 className="heading">Undergraduate Teaching Assistant for INFO 200 (Intellectual Foundations of Informatics)</h4>
                         </div>
                     </div>
 
